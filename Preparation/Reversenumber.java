@@ -22,12 +22,13 @@ public class Reversenumber {
     public static void main(String[] args){
 
         int num = 1230;
+        int digit = 0;
 
         System.out.print("Reverse : ");
 
         while(num > 0){
 
-            int digit = num % 10;
+            digit = num % 10;
 
             System.out.print(digit);
 
