@@ -18,11 +18,18 @@ import java.util.*;
 public class Arrayreverse{
     public static void main(String[] args){
         int[] a1 = {1,2,3,4,5,6};
-        int j = a1.length-1;  // 5
-        for(int i =0;i < a1.length;i++){ // i = 0 1
-            a1[j] = a1[i]; // a1[2] = a1[3]                 3  2 1
-            j--;
-        }
+        int end = a1.length-1;  // 5
+        int start=0;
+
+       while(start<end){
+        int temp=a1[start];
+        a1[start]=a1[end];
+        a1[end]=temp;
+        start++;
+        end--;
+
+       }
+
         System.out.println(Arrays.toString(a1)); //
     }
 }
