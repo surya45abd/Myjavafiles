@@ -7,8 +7,8 @@ public class Cloths implements Product{
     }
     public static void main(String[] args){
         Cloths c = new Cloths();
-        Product p = new Cloths();
+        Product.productDetails();
         c.productDiscount();
-        p.productDetails();
+       
     }
 }
