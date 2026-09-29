@@ -19,7 +19,7 @@ public class Ioexception{
         // }
         //     System.out.println("some thing went wrong");
 
-        File f = new File("D:\\Notepad\\hello.doc");
+        File f = new File("D:\\Notepad\\hello.txt");
         boolean b = f.createNewFile();
             if(b){
                 System.out.println("created");
