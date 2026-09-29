@@ -24,6 +24,5 @@ public class FileNotFound{
         }
           System.out.println("");  
         System.out.println("go back");
-        System.out.println("go back");
     }
 }
